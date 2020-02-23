@@ -1,0 +1,40 @@
+* {
+font-family: 'Roboto';
+}
+
+body {
+    display: flex;
+    margin-top: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#perso {
+    background-color: #283593;
+    width: 30%
+}
+
+#job {
+    background-color: #64B5F6;
+    width:70%;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#studies {
+    margin-top: 10%;
+}
+
+#studies h2 {
+    text-transform: uppercase;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 0;
+}
+
+hr {
+  margin-top: -10px;
+}
