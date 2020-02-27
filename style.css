@@ -1,5 +1,5 @@
-* {
-font-family: 'Roboto';
+html {
+    font-family: 'Roboto';
 }
 
 body {
@@ -7,34 +7,148 @@ body {
     margin-top: 0;
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 0;
 }
 
-#perso {
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#aside {
     background-color: #283593;
-    width: 30%
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#job {
+.infos {
+    color: #64B5F6;
+    display: flex;
+    flex-direction: column;
+}
+
+.infos div {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.infos h3 {
+    padding: 2px;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.icon {
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+#icons {
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+img {
+    margin-top: 40px;
+    margin-left: 29px;
+    width: 75%;
+    border-radius:100%;
+}
+
+#principal {
     background-color: #64B5F6;
     width:70%;
     padding-top: 10%;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 5%;
 }
+
+#f-name {
+    color: #283593;
+} 
 
 #studies {
     margin-top: 10%;
 }
 
-#studies h2 {
-    text-transform: uppercase;
-}
-
-.title {
-    display: flex;
-    margin-bottom: 0;
-}
-
 hr {
   margin-top: -10px;
+  border: 1px solid #283593;
 }
+
+ul {
+    margin-left: -7%;
+    margin-top: 25px;
+}
+
+li {
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+li div:first-child {
+    flex-basis: 40%;
+}
+
+/** Bullet point don't work with flexbox
+So we add a new
+**/
+li:before {
+    content: "•";
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: -8px;
+    color: #283593
+}
+
+li div:first-child {
+    
+}
+
+li div:nth-child(2) {
+    flex-grow: 2;
+    flex-basis: 40%;
+
+}
+
+.timeline h3 {
+    margin-top: 0px;
+}
+
+li:first-child:before {
+    content: "⦿";
+    font-size: 21px;
+    margin-right: 5px;
+    margin-top: -1px;
+}
+
+h4, h3 {
+    margin-bottom: 5px;
+}
+
+.fa-briefcase {
+    margin-right: 6px;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.person div {
+    flex-basis: 50%
+}
+
+
