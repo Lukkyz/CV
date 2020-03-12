@@ -5,8 +5,8 @@ html {
 body {
     display: flex;
     margin-top: 0;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 22%;
+    margin-right: 22%;
     margin-bottom: 0;
 }
 
@@ -73,6 +73,15 @@ img {
     padding-bottom: 5%;
 }
 
+#underline {
+    margin-right: 90%;
+    
+}
+
+#job {
+    margin-bottom: 7px;
+}
+
 #f-name {
     color: #283593;
 } 
@@ -133,7 +142,7 @@ li div:nth-child(2) {
 
 li:first-child:before {
     content: "⦿";
-    font-size: 21px;
+    font-size: 15px;
     margin-right: 5px;
     margin-top: -1px;
 }
