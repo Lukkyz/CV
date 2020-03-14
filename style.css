@@ -73,13 +73,18 @@ img {
     padding-bottom: 5%;
 }
 
+#head {
+    margin-bottom: 100px;
+}
+
 #underline {
     margin-right: 90%;
-    
+    margin-bottom: 10px;
 }
 
 #job {
     margin-bottom: 7px;
+    margin-top: -10px;
 }
 
 #f-name {
@@ -142,7 +147,7 @@ li div:nth-child(2) {
 
 li:first-child:before {
     content: "⦿";
-    font-size: 15px;
+    font-size: 18px;
     margin-right: 5px;
     margin-top: -1px;
 }
