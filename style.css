@@ -140,10 +140,6 @@ li:before {
     color: #283593
 }
 
-li div:first-child {
-    
-}
-
 li div:nth-child(2) {
     flex-grow: 2;
     flex-basis: 40%;
