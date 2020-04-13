@@ -23,6 +23,10 @@ img {
     border-radius:100%;
 }
 
+h4 {
+	margin: 0;
+}
+
 article h3 {
 	font-size: 20px
 }
@@ -49,7 +53,7 @@ aside div {
     height: 15%;
 }
 
-.infos div, .infos p {
+.infos section, .infos p {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 10px;
@@ -79,10 +83,7 @@ aside div {
 main {
     background-color: #64B5F6;
     width:70%;
-    padding-top: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+	padding: 10% 5% 5% 5%; 
 }
 
 #name {
